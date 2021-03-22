@@ -1,0 +1,51 @@
+h1, h2, h3, p {
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+#main {
+    text-align: center;
+    justify-content: center;
+}
+
+#logosContainer {
+    max-width: 90vw;
+    max-height: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.logoElement {
+    flex: 1 1 content;
+}
+
+#aboutMe {
+
+}
+
+#projects {
+
+}
+
+h1, h2, h3 {
+  display: block;
+  font-weight: bold;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 3em;
+}
